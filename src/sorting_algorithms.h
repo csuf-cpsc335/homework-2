@@ -2,6 +2,7 @@
 #define SORTING_ALGORITHMS_H
 
 #include <vector>
+#include <string>
 using namespace std;
 
 // ================== COUNT SORT ==================
