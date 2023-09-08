@@ -61,5 +61,10 @@ int main(int argc, char* argv[]){
 
     cout << "(" << totalPassedRadixSort << " / " << totalTests << " passed)\n";
 
+    if(argc > 1){
+        assert(totalPassedCountSort == totalTests);
+        assert(totalPassedRadixSort == totalTests);
+    }
+
     return 0;
 }
